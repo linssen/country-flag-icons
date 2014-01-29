@@ -52,6 +52,8 @@ def get_license(page):
         return 'Public domain'
     if img_desc[0].find(text=re.compile(r'(?i)non-protected works')):
         return 'Non-protected works'
+    if img_desc[0].find(text=re.compile(r'(?i)attribution-share alike 2\.5 generic')):
+        return 'CC Attribution-ShareAlike 2.5 Generic'
 
 def append_licenses(country):
     with codecs.open(os.path.join(_here, 'licenses.csv'), 'a', 'utf-8') as f:
