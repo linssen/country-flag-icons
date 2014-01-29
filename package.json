@@ -1,0 +1,10 @@
+{
+  "name": "international_flags",
+  "version": "0.0.0",
+  "description": "Scrape the flags of the world with their licenses",
+  "author": "Wil Linssen",
+  "devDependencies": {
+    "grunt-grunticon": "~0.6.15",
+    "grunt": "~0.4.2"
+  }
+}
