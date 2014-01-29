@@ -64,7 +64,7 @@ def append_licenses(country):
 def download_flag(country):
     file_name = os.path.basename('%s.svg' % country['alpha3'])
     file_name = urllib.unquote(file_name).decode('utf8').lower()
-    path = os.path.join(_here, 'images', file_name)
+    path = os.path.join(_here, 'images', 'svg', file_name)
     r = requests.get('http:' + country['file_url'])
     print 'Saving file: \'%s\' for %s' % (file_name, country['name'])
     with open(path, 'wb') as f:
