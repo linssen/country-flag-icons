@@ -8,12 +8,17 @@ import requests
 from bs4 import BeautifulSoup
 
 WIKI_URL = u'http://en.wikipedia.org'
+_here = os.path.dirname(__file__)
+
 
 def main():
+    with open(os.path.join(_here, 'licenses.csv'), 'wb') as f:
+        f.write('Alpha-3 code,English short name,License\n')
+
     r = requests.get('%s/wiki/ISO_3166-1' % WIKI_URL)
     soup = BeautifulSoup(r.text, 'html5lib')
     country_rows = soup.select('#mw-content-text table:nth-of-type(1) tr')
-    for row in country_rows[1:]:
+    for row in country_rows[31:]:
         get_flag_url(dict(
             url=row.select('td:nth-of-type(1) a')[0]['href'],
             alpha3=row.select('td:nth-of-type(3)')[0].get_text(),
@@ -31,12 +36,32 @@ def get_flag_url(country):
     r = requests.get(WIKI_URL + media_url)
     soup = BeautifulSoup(r.text, 'html5lib')
     country['file_url'] = soup.select('#file > a')[0]['href']
+    country['license'] = get_license(soup)
+
     download_flag(country)
+    append_licenses(country)
+
+def get_license(page):
+    """Find the location of the licensing info and regex for our magic words."""
+    img_desc = page.select('#shared-image-desc')
+    if len(img_desc) == 0:
+        img_desc = page.select('#mw-content-text .imbox-license')
+
+    if img_desc[0].find(text=re.compile(r'(?i)public domain')):
+        return 'Public domain'
+    if img_desc[0].find(text=re.compile(r'(?i)non-protected works')):
+        return 'Non-protected works'
+
+def append_licenses(country):
+    with open(os.path.join(_here, 'licenses.csv'), 'a') as f:
+        f.write(','.join(
+            [country['alpha3'], country['name'], country['license']]
+        ) + '\n')
 
 def download_flag(country):
     file_name = os.path.basename('%s.svg' % country['alpha3'])
     file_name = urllib.unquote(file_name).decode('utf8').lower()
-    path = os.path.join(os.path.dirname(__file__), 'images', file_name)
+    path = os.path.join(_here, 'images', file_name)
     r = requests.get('http:' + country['file_url'])
     print 'Saving file: \'%s\' for %s' % (file_name, country['name'])
     with open(path, 'wb') as f:
