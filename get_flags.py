@@ -3,6 +3,7 @@
 import re
 import os
 import urllib
+import codecs
 
 import requests
 from bs4 import BeautifulSoup
@@ -18,7 +19,7 @@ def main():
     r = requests.get('%s/wiki/ISO_3166-1' % WIKI_URL)
     soup = BeautifulSoup(r.text, 'html5lib')
     country_rows = soup.select('#mw-content-text table:nth-of-type(1) tr')
-    for row in country_rows[31:]:
+    for row in country_rows[1:]:
         get_flag_page(dict(
             url=row.select('td:nth-of-type(1) a')[0]['href'],
             alpha3=row.select('td:nth-of-type(3)')[0].get_text(),
@@ -53,7 +54,7 @@ def get_license(page):
         return 'Non-protected works'
 
 def append_licenses(country):
-    with open(os.path.join(_here, 'licenses.csv'), 'a') as f:
+    with codecs.open(os.path.join(_here, 'licenses.csv'), 'a', 'utf-8') as f:
         f.write(','.join(
             [country['alpha3'], country['name'], country['license']]
         ) + '\n')
