@@ -19,13 +19,13 @@ def main():
     soup = BeautifulSoup(r.text, 'html5lib')
     country_rows = soup.select('#mw-content-text table:nth-of-type(1) tr')
     for row in country_rows[31:]:
-        get_flag_url(dict(
+        get_flag_page(dict(
             url=row.select('td:nth-of-type(1) a')[0]['href'],
             alpha3=row.select('td:nth-of-type(3)')[0].get_text(),
             name=row.select('td:nth-of-type(1')[0].get_text(),
         ))
 
-def get_flag_url(country):
+def get_flag_page(country):
     r = requests.get(WIKI_URL + country['url'])
     soup = BeautifulSoup(r.text, 'html5lib')
     media_link = soup.find(title=re.compile('^Flag of'))
