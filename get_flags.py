@@ -37,7 +37,7 @@ def download_flag(country):
     file_name = os.path.basename('%s.svg' % country['alpha3'])
     file_name = urllib.unquote(file_name).decode('utf8').lower()
     path = os.path.join(os.path.dirname(__file__), 'images', file_name)
-    r = requests.get(WIKI_URL + country['file_url'])
+    r = requests.get('http:' + country['file_url'])
     print 'Saving file: \'%s\' for %s' % (file_name, country['name'])
     with open(path, 'wb') as f:
         for chunk in r.iter_content():
