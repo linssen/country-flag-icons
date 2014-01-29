@@ -12,7 +12,7 @@ Licenses have been saved into `licenses.csv`.
 Installation
 ------------------------------------------------------------------------------
 
-* Set up a [`virtualenv`][venv] for development to keep dependencies separate.
+* Set up a [`virtualenv`](venv) for development to keep dependencies separate.
 * Install python packages with `pip install -r requirements.txt`.
 * Install node packages with `npm install`
 
