@@ -23,7 +23,7 @@ def main():
         get_flag_page(dict(
             url=row.select('td:nth-of-type(1) a')[0]['href'],
             alpha3=row.select('td:nth-of-type(3)')[0].get_text(),
-            name=row.select('td:nth-of-type(1) a')[0].get_text(),
+            name=row.select('td:nth-of-type(1) a')[0].get_text().replace(',', ' -'),
         ))
 
 def get_flag_page(country):
