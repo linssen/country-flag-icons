@@ -36,7 +36,11 @@ def get_flag_page(country):
     media_url = media_link['href']
     r = requests.get(WIKI_URL + media_url)
     soup = BeautifulSoup(r.text, 'html5lib')
-    country['file_url'] = soup.select('#file > a')[0]['href']
+    file_link = soup.select('#file > a')
+    if len(file_link) == 0:
+        print 'No flag found for \'%s\'' % country['name']
+        return False
+    country['file_url'] = file_link[0]['href']
     country['license'] = get_license(soup)
 
     download_flag(country)
@@ -47,8 +51,9 @@ def get_license(page):
     img_desc = page.select('#shared-image-desc')
     if len(img_desc) == 0:
         img_desc = page.select('#mw-content-text .imbox-license')
-
     if img_desc[0].find(text=re.compile(r'(?i)public domain')):
+        return 'Public domain'
+    if len(img_desc) > 1 and img_desc[1].find(text=re.compile(r'(?i)public domain')):
         return 'Public domain'
     if img_desc[0].find(text=re.compile(r'(?i)non-protected works')):
         return 'Non-protected works'
@@ -56,6 +61,11 @@ def get_license(page):
         return 'Creative Commons Attribution-ShareAlike 2.5 Generic'
     if img_desc[0].find(text=re.compile(r'(?i)attribution-share alike 3\.0 unported')):
         return 'Creative Commons Attribution-Share Alike 3.0 Unported'
+    if img_desc[0].find(text=re.compile(r'(?i)attribution 3\.0 unported')):
+        author = page.select('#fileinfotpl_aut ~ td a')[0]
+        return 'Creative Commons Attribution 3.0 Unported (author: \'%s\' <http:%s>)' % (
+            author.get_text(), author['href']
+        )
 
 def append_licenses(country):
     with codecs.open(os.path.join(_here, 'licenses.csv'), 'a', 'utf-8') as f:
