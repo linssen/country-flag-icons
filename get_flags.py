@@ -4,6 +4,7 @@ import re
 import os
 import urllib
 import codecs
+import json
 
 import requests
 from bs4 import BeautifulSoup
@@ -11,6 +12,7 @@ from bs4 import BeautifulSoup
 WIKI_URL = u'http://en.wikipedia.org'
 _here = os.path.dirname(__file__)
 errors = []
+countries = []
 
 
 def main():
@@ -27,6 +29,7 @@ def main():
             alpha3=row.select('td:nth-of-type(3)')[0].get_text(),
             name=row.select('td:nth-of-type(1) a')[0].get_text().replace(',', ' -'),
         ))
+    write_json(countries)
     print 'Done with %d errors' % len(errors)
 
 def get_flag_page(country):
@@ -50,6 +53,7 @@ def get_flag_page(country):
 
     download_flag(country)
     append_licenses(country)
+    countries.append(country)
 
 def get_license(page):
     """Find the location of the licensing info and regex for our magic words."""
@@ -87,6 +91,10 @@ def download_flag(country):
     with open(path, 'wb') as f:
         for chunk in r.iter_content():
             f.write(chunk)
+
+def write_json(countries):
+    with codecs.open(os.path.join(_here, 'countries.json'), 'w', 'utf-8') as f:
+        f.write(json.dumps(countries))
 
 if __name__ == '__main__':
     main()
