@@ -18,6 +18,16 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-grunticon');
 
-    grunt.registerTask('default', ['grunticon']);
+    grunt.registerTask('default', ['grunticon', 'preview']);
+    grunt.registerTask('preview', 'Creates a preview of all flags', function () {
+        var countries, preview;
+        countries = JSON.parse(grunt.file.read('countries.json'));
+        preview = grunt.template.process(
+            grunt.file.read('preview.tpl'),
+            {data: {countries: countries}}
+        );
+        grunt.file.write('preview.html', preview);
+        grunt.log.writeln('Preview of flags built');
+    });
 
 };
