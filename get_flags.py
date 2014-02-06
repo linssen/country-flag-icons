@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 
 WIKI_URL = u'http://en.wikipedia.org'
 _here = os.path.dirname(__file__)
+errors = []
 
 
 def main():
@@ -26,20 +27,23 @@ def main():
             alpha3=row.select('td:nth-of-type(3)')[0].get_text(),
             name=row.select('td:nth-of-type(1) a')[0].get_text().replace(',', ' -'),
         ))
+    print 'Done with %d errors' % len(errors)
 
 def get_flag_page(country):
     r = requests.get(WIKI_URL + country['url'])
     soup = BeautifulSoup(r.text, 'html5lib')
     media_link = soup.find(title=re.compile('^Flag of'))
     if media_link is None:
-        print 'No flag found for \'%s\'' % country['name']
+        errors.append('No flag found for \'%s\'' % country['name'])
+        print errors[-1]
         return False
     media_url = media_link['href']
     r = requests.get(WIKI_URL + media_url)
     soup = BeautifulSoup(r.text, 'html5lib')
     file_link = soup.select('#file > a')
     if len(file_link) == 0:
-        print 'No flag found for \'%s\'' % country['name']
+        errors.append('No flag found for \'%s\'' % country['name'])
+        print errors[-1]
         return False
     country['file_url'] = file_link[0]['href']
     country['license'] = get_license(soup)
