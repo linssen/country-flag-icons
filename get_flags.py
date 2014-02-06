@@ -18,8 +18,9 @@ def main():
 
     r = requests.get('%s/wiki/ISO_3166-1' % WIKI_URL)
     soup = BeautifulSoup(r.text, 'html5lib')
-    country_rows = soup.select('#mw-content-text table:nth-of-type(1) tr')
-    for row in country_rows[1:]:
+    country_rows = soup.select('#mw-content-text table:nth-of-type(1) tr')[1:]
+    print 'Found %d countries' % len(country_rows)
+    for row in country_rows:
         get_flag_page(dict(
             url=row.select('td:nth-of-type(1) a')[0]['href'],
             alpha3=row.select('td:nth-of-type(3)')[0].get_text(),
