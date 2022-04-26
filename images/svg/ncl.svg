@@ -1,39 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="450">
-<title>Flag of New Caledonia</title>
-<rect fill="#009543" width="900" height="450"/>
-<rect fill="#ed4135" width="900" height="300"/>
-<rect fill="#0035ad" width="900" height="150"/>
-<circle stroke="#000" stroke-width="5" fill="#fae600" cx="300" cy="225" r="147.48"/>
-<path stroke="#000" stroke-width="6" d="M275,247h50 M275,210h50 M300,78V330"/>
-<path d="M240.62,360.419
-	C300.811,384.999,357.228,361.929,357.228,361.929
-	C357.228,361.929,335.931,338.881,325.014,329.882
-	C314.361,321.104,283.023,321.451,272.329,329.882
-	C263.405,336.92,237.809,362.852,240.62,360.419Z"/>
-<ellipse cx="300" cy="293" rx="16.5" ry="24"/>
-<ellipse cx="300" cy="228.5" rx="20" ry="12.66"/>
-<ellipse cx="300" cy="170" rx="20" ry="20"/>
-<path d="M324,95.5
-	C323.994,95.4866,325.733,98.3708,322.087,104.936
-	C304.661,136.319,287.174,136.997,283.855,139.7
-	C280.197,142.678,278.653,142.474,278.653,142.474
-	C278.914,139.786,279.157,128.795,279.348,127.736
-	C281.993,113.073,304.144,113.275,321.48,98.2605
-	C324.188,95.915,323.994,95.4866,323.994,95.4866Z"/>
-<g id="leaf">
-	<path d="m 265.5,163
-		c0,0 3.91436,11.22974 4.5,22.5
-		c0.93516,17.99657 18.18031,18.5 30,18.5
-		l0,-10
-		c-8.85851,0 -16.55267,-1.31658 -23,-14.5
-		c-3.18045,-6.50336 -11.5,-16.5 -11.5,-16.5z"/>
-	<path d="m 265,308
-		c0,0 6.29638,-7.76543 13.6619,-25.97461
-		C282.5048,272.5249 291.6115,267 300,267
-		l0,-14
-		c-19.02757,0 -28.1503,7.0552 -29.11281,17.36332
-		C268.90975,291.54089 265,308 265,308z"/>
-</g>
-<use xlink:href="#leaf" transform="translate(600,0)scale(-1,1)"/>
-</svg>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Wikimedia Error</title>
+<style>
+* { margin: 0; padding: 0; }
+body { background: #fff; font: 15px/1.6 sans-serif; color: #333; }
+.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; }
+.footer { clear: both; margin-top: 14%; border-top: 1px solid #e5e5e5; background: #f9f9f9; padding: 2em 0; font-size: 0.8em; text-align: center; }
+img { float: left; margin: 0 2em 2em 0; }
+a img { border: 0; }
+h1 { margin-top: 1em; font-size: 1.2em; }
+.content-text { overflow: hidden; overflow-wrap: break-word; word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
+p { margin: 0.7em 0 1em 0; }
+a { color: #0645ad; text-decoration: none; }
+a:hover { text-decoration: underline; }
+code { font-family: sans-serif; }
+.text-muted { color: #777; }
+</style>
+<div class="content" role="main">
+<a href="https://www.wikimedia.org"><img src="https://www.wikimedia.org/static/images/wmf-logo.png" srcset="https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x" alt="Wikimedia" width="135" height="101">
+</a>
+<h1>Error</h1>
+<div class="content-text">
+<p>Our servers are currently under maintenance or experiencing a technical problem.
+
+Please <a href="" title="Reload this page" onclick="window.location.reload(false); return false">try again</a> in a few&nbsp;minutes.</p>
+
+<p>See the error message at the bottom of this page for more&nbsp;information.</p>
+</div>
+</div>
+<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request from 62.7.224.241 via cp3053 cp3053, Varnish XID 222173750<br>Upstream caches: cp3053 int<br>Error: 403, Forbidden. Please comply with the User-Agent policy: https://meta.wikimedia.org/wiki/User-Agent_policy at Tue, 26 Apr 2022 12:21:11 GMT</code></p>
+</div>
+</html>

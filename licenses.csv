@@ -24,21 +24,20 @@ BLZ,Belize,Public domain
 BEN,Benin,Public domain
 BMU,Bermuda,Public domain
 BTN,Bhutan,Public domain
-BOL,Bolivia - Plurinational State of,Public domain
+BOL,Bolivia (Plurinational State of),Public domain
 BES,Bonaire - Sint Eustatius and Saba,Public domain
 BIH,Bosnia and Herzegovina,Public domain
 BWA,Botswana,Public domain
-BVT,Bouvet Island,Public domain
 BRA,Brazil,Public domain
 IOT,British Indian Ocean Territory,Public domain
 BRN,Brunei Darussalam,Public domain
 BGR,Bulgaria,Public domain
 BFA,Burkina Faso,Public domain
 BDI,Burundi,Public domain
+CPV,Cabo Verde,Public domain
 KHM,Cambodia,Public domain
 CMR,Cameroon,Public domain
 CAN,Canada,Public domain
-CPV,Cape Verde,Public domain
 CYM,Cayman Islands,Public domain
 CAF,Central African Republic,Public domain
 TCD,Chad,Public domain
@@ -49,7 +48,7 @@ CCK,Cocos (Keeling) Islands,Public domain
 COL,Colombia,Public domain
 COM,Comoros,Public domain
 COG,Congo,Public domain
-COD,Congo - the Democratic Republic of the,Public domain
+COD,Congo - Democratic Republic of the,Public domain
 COK,Cook Islands,Public domain
 CRI,Costa Rica,Public domain
 CIV,Côte d'Ivoire,Public domain
@@ -57,7 +56,7 @@ HRV,Croatia,Public domain
 CUB,Cuba,Public domain
 CUW,Curaçao,Public domain
 CYP,Cyprus,Public domain
-CZE,Czech Republic,Public domain
+CZE,Czechia,Public domain
 DNK,Denmark,Public domain
 DJI,Djibouti,Public domain
 DMA,Dominica,Public domain
@@ -68,13 +67,13 @@ SLV,El Salvador,Public domain
 GNQ,Equatorial Guinea,Public domain
 ERI,Eritrea,Public domain
 EST,Estonia,Public domain
+SWZ,Eswatini,Public domain
 ETH,Ethiopia,Public domain
 FLK,Falkland Islands (Malvinas),Public domain
 FRO,Faroe Islands,Public domain
 FJI,Fiji,Public domain
 FIN,Finland,Public domain
 FRA,France,Public domain
-GUF,French Guiana,Public domain
 PYF,French Polynesia,Public domain
 ATF,French Southern Territories,Public domain
 GAB,Gabon,Public domain
@@ -86,26 +85,23 @@ GIB,Gibraltar,Public domain
 GRC,Greece,Public domain
 GRL,Greenland,Public domain
 GRD,Grenada,Public domain
-GLP,Guadeloupe,Public domain
 GUM,Guam,Public domain
 GTM,Guatemala,Public domain
-GGY,Guernsey,Public domain
 GIN,Guinea,Public domain
 GNB,Guinea-Bissau,Public domain
 GUY,Guyana,Public domain
 HTI,Haiti,Public domain
 HMD,Heard Island and McDonald Islands,Public domain
-VAT,Holy See (Vatican City State),Public domain
+VAT,Holy See,Public domain
 HND,Honduras,Public domain
 HKG,Hong Kong,Public domain
 HUN,Hungary,Public domain
 ISL,Iceland,Public domain
 IND,India,Public domain
 IDN,Indonesia,Public domain
-IRN,Iran - Islamic Republic of,Public domain
+IRN,Iran (Islamic Republic of),Public domain
 IRQ,Iraq,Public domain
 IRL,Ireland,Public domain
-IMN,Isle of Man,Public domain
 ISR,Israel,Public domain
 ITA,Italy,Public domain
 JAM,Jamaica,Public domain
@@ -115,21 +111,20 @@ JOR,Jordan,Public domain
 KAZ,Kazakhstan,Public domain
 KEN,Kenya,Public domain
 KIR,Kiribati,Public domain
-PRK,Korea - Democratic People's Republic of,Public domain
+PRK,Korea (Democratic People's Republic of),Public domain
 KOR,Korea - Republic of,Public domain
 KWT,Kuwait,Public domain
 KGZ,Kyrgyzstan,Public domain
 LAO,Lao People's Democratic Republic,Public domain
 LVA,Latvia,Public domain
 LBN,Lebanon,Public domain
-LSO,Lesotho,Creative Commons Attribution-ShareAlike 2.5 Generic
+LSO,Lesotho,Public domain
 LBR,Liberia,Public domain
 LBY,Libya,Public domain
 LIE,Liechtenstein,Public domain
 LTU,Lithuania,Public domain
 LUX,Luxembourg,Public domain
 MAC,Macao,Public domain
-MKD,Macedonia - the former Yugoslav Republic of,Public domain
 MDG,Madagascar,Public domain
 MWI,Malawi,Public domain
 MYS,Malaysia,Public domain
@@ -137,16 +132,14 @@ MDV,Maldives,Public domain
 MLI,Mali,Public domain
 MLT,Malta,Public domain
 MHL,Marshall Islands,Public domain
-MTQ,Martinique,Public domain
 MRT,Mauritania,Public domain
 MUS,Mauritius,Public domain
-MYT,Mayotte,Public domain
 MEX,Mexico,Public domain
-FSM,Micronesia - Federated States of,Public domain
+FSM,Micronesia (Federated States of),Public domain
 MDA,Moldova - Republic of,Public domain
 MCO,Monaco,Public domain
 MNG,Mongolia,Public domain
-MNE,Montenegro,Creative Commons Attribution-Share Alike 3.0 Unported
+MNE,Montenegro,Public domain
 MSR,Montserrat,Public domain
 MAR,Morocco,Public domain
 MOZ,Mozambique,Public domain
@@ -155,93 +148,17 @@ NAM,Namibia,Public domain
 NRU,Nauru,Public domain
 NPL,Nepal,Public domain
 NLD,Netherlands,Public domain
-NCL,New Caledonia,Public domain
+NCL,New Caledonia,Creative Commons Attribution-Share Alike 4.0 International
 NZL,New Zealand,Public domain
-NIC,Nicaragua,Creative Commons Attribution 3.0 Unported (author: 'C records' <http://commons.wikimedia.org/wiki/User:C_records>)
+NIC,Nicaragua,Public domain
 NER,Niger,Public domain
 NGA,Nigeria,Public domain
 NIU,Niue,Public domain
 NFK,Norfolk Island,Public domain
+MKD,North Macedonia,Public domain
 MNP,Northern Mariana Islands,Public domain
 NOR,Norway,Public domain
 OMN,Oman,Public domain
 PAK,Pakistan,Public domain
 PLW,Palau,Public domain
 PSE,Palestine - State of,Public domain
-PAN,Panama,Public domain
-PNG,Papua New Guinea,Public domain
-PRY,Paraguay,Public domain
-PER,Peru,Public domain
-PHL,Philippines,Public domain
-PCN,Pitcairn,Public domain
-POL,Poland,Public domain
-PRT,Portugal,Public domain
-PRI,Puerto Rico,Public domain
-QAT,Qatar,Public domain
-REU,Réunion,Public domain
-ROU,Romania,Public domain
-RUS,Russian Federation,Public domain
-RWA,Rwanda,Public domain
-BLM,Saint Barthélemy,Public domain
-SHN,Saint Helena - Ascension and Tristan da Cunha,Public domain
-KNA,Saint Kitts and Nevis,Public domain
-LCA,Saint Lucia,Public domain
-MAF,Saint Martin (French part),Public domain
-SPM,Saint Pierre and Miquelon,Public domain
-VCT,Saint Vincent and the Grenadines,Public domain
-WSM,Samoa,Public domain
-SMR,San Marino,Public domain
-STP,Sao Tome and Principe,Public domain
-SAU,Saudi Arabia,Public domain
-SEN,Senegal,Public domain
-SRB,Serbia,Public domain
-SYC,Seychelles,Public domain
-SLE,Sierra Leone,Public domain
-SGP,Singapore,Public domain
-SXM,Sint Maarten (Dutch part),Creative Commons Attribution-Share Alike 3.0 Unported
-SVK,Slovakia,Public domain
-SVN,Slovenia,Public domain
-SLB,Solomon Islands,Public domain
-SOM,Somalia,Public domain
-ZAF,South Africa,Public domain
-SGS,South Georgia and the South Sandwich Islands,Public domain
-SSD,South Sudan,Public domain
-ESP,Spain,Public domain
-LKA,Sri Lanka,Public domain
-SDN,Sudan,Public domain
-SUR,Suriname,Public domain
-SWZ,Swaziland,Public domain
-SWE,Sweden,Public domain
-CHE,Switzerland,Public domain
-SYR,Syrian Arab Republic,Public domain
-TWN,Taiwan - Province of China,Public domain
-TJK,Tajikistan,Public domain
-TZA,Tanzania - United Republic of,Public domain
-THA,Thailand,Public domain
-TLS,Timor-Leste,Public domain
-TGO,Togo,Public domain
-TKL,Tokelau,Public domain
-TON,Tonga,Public domain
-TTO,Trinidad and Tobago,Public domain
-TUN,Tunisia,Public domain
-TUR,Turkey,Public domain
-TKM,Turkmenistan,Public domain
-TCA,Turks and Caicos Islands,Public domain
-TUV,Tuvalu,Public domain
-UGA,Uganda,Public domain
-UKR,Ukraine,Public domain
-ARE,United Arab Emirates,Public domain
-GBR,United Kingdom,Public domain
-USA,United States,Public domain
-UMI,United States Minor Outlying Islands,Public domain
-URY,Uruguay,Public domain
-UZB,Uzbekistan,Public domain
-VUT,Vanuatu,Public domain
-VEN,Venezuela - Bolivarian Republic of,Public domain
-VNM,Viet Nam,Public domain
-VGB,Virgin Islands - British,Public domain
-VIR,Virgin Islands - U.S.,Public domain
-WLF,Wallis and Futuna,Public domain
-YEM,Yemen,Public domain
-ZMB,Zambia,Public domain
-ZWE,Zimbabwe,Public domain

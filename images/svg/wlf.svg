@@ -1,7 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="600" width="900" viewBox="0 0 150 100">
-<path d="M0,0H150V100H0z" fill="#ed2939"/>
-<path d="M0,0H40V40H0z" fill="#fff"/>
-<path d="M0,0H20V40H0z" fill="#002395"/>
-<path d="M0,40H60V0" fill="none" stroke="#fff"/>
-<path d="M105,46 93,34H117zM101,50 89,38V62zM105,54 93,66H117zM109,50 121,38V62z" fill="#fff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="600"
+   viewBox="0 0 150 100"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="Flag_of_Wallis_and_Futuna.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.255"
+     inkscape:cx="450.1992"
+     inkscape:cy="491.23506"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     fill="#ED2939"
+     d="M0,0H150V100H0z"
+     id="path2"
+     style="fill:#ce1126;fill-opacity:1" />
+  <path
+     fill="#FFF"
+     d="M0,0H40V40H0z"
+     id="path4" />
+  <path
+     fill="#002395"
+     d="M0,0H20V40H0z"
+     id="path6"
+     style="fill:#002654;fill-opacity:1" />
+  <path
+     fill="none"
+     stroke="#FFF"
+     d="M0,40H60V0"
+     id="path8" />
+  <path
+     fill="#FFF"
+     d="M105,46 93,34H117zM101,50 89,38V62zM105,54 93,66H117zM109,50 121,38V62z"
+     id="path10" />
 </svg>
