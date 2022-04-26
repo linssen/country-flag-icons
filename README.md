@@ -9,6 +9,9 @@ brittle. Should give you a constantly up to date set though.
 
 Licenses have been saved into `licenses.csv`.
 
+I've made no political decisions here - the country names, flags etc. are all
+taken directly from the Wiki. Any changes should be made upstream therein.
+
 ![Flags](https://f.cloud.github.com/assets/67624/2029987/bf976a36-88ef-11e3-81bf-cbd1bb6966a9.png)
 
 Installation
