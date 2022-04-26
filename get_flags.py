@@ -95,7 +95,7 @@ def download_flag(country):
 
 def write_json(countries):
     with codecs.open(os.path.join(_here, 'countries.json'), 'w', 'utf-8') as f:
-        f.write(json.dumps(countries))
+        f.write(json.dumps(countries, indent=2))
 
 
 if __name__ == '__main__':
