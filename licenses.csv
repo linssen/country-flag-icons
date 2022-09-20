@@ -87,6 +87,7 @@ GRL,Greenland,Public domain
 GRD,Grenada,Public domain
 GUM,Guam,Public domain
 GTM,Guatemala,Public domain
+GGY,Guernsey,Public domain
 GIN,Guinea,Public domain
 GNB,Guinea-Bissau,Public domain
 GUY,Guyana,Public domain
@@ -102,6 +103,7 @@ IDN,Indonesia,Public domain
 IRN,Iran (Islamic Republic of),Public domain
 IRQ,Iraq,Public domain
 IRL,Ireland,Public domain
+IMN,Isle of Man,Public domain
 ISR,Israel,Public domain
 ITA,Italy,Public domain
 JAM,Jamaica,Public domain
@@ -180,12 +182,10 @@ SHN,Saint Helena - Ascension and Tristan da Cunha,Public domain
 KNA,Saint Kitts and Nevis,Public domain
 LCA,Saint Lucia,Public domain
 MAF,Saint Martin (French part),Public domain
-SPM,Saint Pierre and Miquelon,Public domain
 VCT,Saint Vincent and the Grenadines,Public domain
 WSM,Samoa,Public domain
 SMR,San Marino,Public domain
 STP,Sao Tome and Principe,Public domain
-SAU,Saudi Arabia,Public domain
 SEN,Senegal,Public domain
 SRB,Serbia,Public domain
 SYC,Seychelles,Public domain
@@ -203,6 +203,7 @@ ESP,Spain,Public domain
 LKA,Sri Lanka,Public domain
 SDN,Sudan,Public domain
 SUR,Suriname,Public domain
+SJM,Svalbard and Jan Mayen,Public domain
 SWE,Sweden,Public domain
 CHE,Switzerland,Public domain
 SYR,Syrian Arab Republic,Public domain
@@ -215,7 +216,7 @@ TKL,Tokelau,Public domain
 TON,Tonga,Public domain
 TTO,Trinidad and Tobago,Public domain
 TUN,Tunisia,Public domain
-TUR,Turkey,Public domain
+TUR,Türkiye,Public domain
 TKM,Turkmenistan,Public domain
 TCA,Turks and Caicos Islands,Public domain
 TUV,Tuvalu,Public domain

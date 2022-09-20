@@ -1,9 +1,9 @@
 [
   {
-    "url": "/wiki/Islamic_Republic_of_Afghanistan",
+    "url": "/wiki/Afghanistan",
     "alpha3": "AFG",
     "name": "Afghanistan",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
     "license": "Public domain"
   },
   {
@@ -178,7 +178,7 @@
     "url": "/wiki/Bolivia",
     "alpha3": "BOL",
     "name": "Bolivia (Plurinational State of)",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_Bolivia_%28state%29.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/b/b3/Bandera_de_Bolivia_%28Estado%29.svg",
     "license": "Public domain"
   },
   {
@@ -360,7 +360,7 @@
     "url": "/wiki/Costa_Rica",
     "alpha3": "CRI",
     "name": "Costa Rica",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Costa_Rica_%28state%29.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg",
     "license": "Public domain"
   },
   {
@@ -616,6 +616,13 @@
     "license": "Public domain"
   },
   {
+    "url": "/wiki/Bailiwick_of_Guernsey",
+    "alpha3": "GGY",
+    "name": "Guernsey",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Guernsey.svg",
+    "license": "Public domain"
+  },
+  {
     "url": "/wiki/Guinea",
     "alpha3": "GIN",
     "name": "Guinea",
@@ -718,6 +725,13 @@
     "alpha3": "IRL",
     "name": "Ireland",
     "file_url": "//upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
+    "license": "Public domain"
+  },
+  {
+    "url": "/wiki/Isle_of_Man",
+    "alpha3": "IMN",
+    "name": "Isle of Man",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_the_Isle_of_Man.svg",
     "license": "Public domain"
   },
   {
@@ -1267,13 +1281,6 @@
     "license": "Public domain"
   },
   {
-    "url": "/wiki/Saint_Pierre_and_Miquelon",
-    "alpha3": "SPM",
-    "name": "Saint Pierre and Miquelon",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Saint-Pierre_and_Miquelon.svg",
-    "license": "Public domain"
-  },
-  {
     "url": "/wiki/Saint_Vincent_and_the_Grenadines",
     "alpha3": "VCT",
     "name": "Saint Vincent and the Grenadines",
@@ -1299,13 +1306,6 @@
     "alpha3": "STP",
     "name": "Sao Tome and Principe",
     "file_url": "//upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Sao_Tome_and_Principe.svg",
-    "license": "Public domain"
-  },
-  {
-    "url": "/wiki/Saudi_Arabia",
-    "alpha3": "SAU",
-    "name": "Saudi Arabia",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
     "license": "Public domain"
   },
   {
@@ -1428,6 +1428,13 @@
     "license": "Public domain"
   },
   {
+    "url": "/wiki/Svalbard_and_Jan_Mayen",
+    "alpha3": "SJM",
+    "name": "Svalbard and Jan Mayen",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+    "license": "Public domain"
+  },
+  {
     "url": "/wiki/Sweden",
     "alpha3": "SWE",
     "name": "Sweden",
@@ -1514,7 +1521,7 @@
   {
     "url": "/wiki/Turkey",
     "alpha3": "TUR",
-    "name": "Turkey",
+    "name": "T\u00fcrkiye",
     "file_url": "//upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
     "license": "Public domain"
   },
@@ -1634,7 +1641,7 @@
     "url": "/wiki/Wallis_and_Futuna",
     "alpha3": "WLF",
     "name": "Wallis and Futuna",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Wallis_and_Futuna.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
     "license": "Public domain"
   },
   {

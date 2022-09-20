@@ -1,53 +1,177 @@
-<?xml version="1.0"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="600" width="1200">
-<defs>
-	<clipPath id="Canton">
-		<path d="M 0,0 L 600,0 L 600,300 L 0,300 z"/>
-	</clipPath>
-	<clipPath id="Diagonals">
-		<path d="M 0,0 L 300,150 L 0,150 z M 300,0 L 600,0 L 300,150 z M 300,150 L 600,150 L 600,300 z M 300,150 L 300,300 L 0,300 z"/>
-	</clipPath>
-	<g id="Pentagram">
-		<g id="Arm" transform="translate(0,-0.324925)">
-			<path d="M 0,0 L 0,0.5 L 1,0 z"/>
-			<path d="M 0,0 L 0,-0.5 L 1,0 z" transform="rotate(-36,1,0)"/>
-		</g>
-		<use xlink:href="#Arm" transform="scale(-1,1)"/>
-		<use xlink:href="#Arm" transform="rotate(72,0,0)"/>
-		<use xlink:href="#Arm" transform="rotate(-72,0,0)"/>
-		<use xlink:href="#Arm" transform="rotate(-72,0,0) scale(-1,1)"/>
-	</g>
-</defs>
-
-<rect fill="#012169" x="0" y="0" width="1200" height="600"/>
-
-<g id="Flag_of_the_United_Kingdom">
-	<path id="Saint_Andrews_Cross" stroke="#FFF" d="M 0,0 L 600,300 M 0,300 L 600,0" stroke-width="60" clip-path="url(#Canton)"/>
-	<path id="Saint_Patricks_Cross" stroke="#C8102E" d="M 0,0 L 600,300 M 0,300 L 600,0" stroke-width="40" clip-path="url(#Diagonals)"/>
-	<g id="Saint_Georges_Cross">
-		<path stroke="#FFF" d="M 300,0 L 300,300 M 0,150 L 600,150" stroke-width="100" clip-path="url(#Canton)"/>
-		<path stroke="#C8102E" d="M 300,0 L 300,300 M 0,150 L 600,150" stroke-width="60" clip-path="url(#Canton)"/>
-	</g>
-</g>
-
-<g id="Southern_Cross">
-	<g id="Gamma_Crucis">
-		<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,120) scale(45.4)"/>
-		<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,120) scale(30)"/>
-	</g>
-	<g transform="rotate(82,900,240)">
-		<g id="Delta_Crucis">
-			<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,120) rotate(-82) scale(40.4)"/>
-			<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,120) rotate(-82) scale(25)"/>
-		</g>
-		<g id="Beta_Crucis">
-			<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,380) rotate(-82) scale(45.4)"/>
-			<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,380) rotate(-82) scale(30)"/>
-		</g>
-	</g>
-	<g id="Alpha_Crucis">
-		<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,480) scale(50.4)"/>
-		<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,480) scale(35)"/>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   height="640"
+   width="1280"
+   id="svg246"
+   sodipodi:docname="Flag_of_New_Zealand_1280x640.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview248"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.51324167"
+     inkscape:cx="525.09376"
+     inkscape:cy="247.44678"
+     inkscape:window-width="1360"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg246" />
+  <defs
+     id="defs211">
+    <clipPath
+       id="Canton">
+      <path
+         d="M 0,0 H 600 V 300 H 0 Z"
+         id="path191" />
+    </clipPath>
+    <clipPath
+       id="Diagonals">
+      <path
+         d="M 0,0 300,150 H 0 Z M 300,0 H 600 L 300,150 Z m 0,150 h 300 v 150 z m 0,0 V 300 H 0 Z"
+         id="path194" />
+    </clipPath>
+    <g
+       id="Pentagram">
+      <g
+         id="Arm"
+         transform="translate(0,-0.324925)">
+        <path
+           d="M 0,0 V 0.5 L 1,0 Z"
+           id="path197" />
+        <path
+           d="M 0,0 V -0.5 L 1,0 Z"
+           transform="rotate(-36,1,0)"
+           id="path199" />
+      </g>
+      <use
+         xlink:href="#Arm"
+         transform="scale(-1,1)"
+         id="use202" />
+      <use
+         xlink:href="#Arm"
+         transform="rotate(72)"
+         id="use204" />
+      <use
+         xlink:href="#Arm"
+         transform="rotate(-72)"
+         id="use206" />
+      <use
+         xlink:href="#Arm"
+         transform="matrix(-0.30901699,0.95105652,0.95105652,0.30901699,0,0)"
+         id="use208" />
+    </g>
+  </defs>
+  <rect
+     fill="#012169"
+     x="0"
+     y="0"
+     width="1280"
+     height="640"
+     id="rect213"
+     style="stroke-width:1.06667" />
+  <g
+     id="Flag_of_the_United_Kingdom"
+     transform="scale(1.0666667)">
+    <path
+       id="Saint_Andrews_Cross"
+       stroke="#ffffff"
+       d="M 0,0 600,300 M 0,300 600,0"
+       stroke-width="60"
+       clip-path="url(#Canton)" />
+    <path
+       id="Saint_Patricks_Cross"
+       stroke="#c8102e"
+       d="M 0,0 600,300 M 0,300 600,0"
+       stroke-width="40"
+       clip-path="url(#Diagonals)" />
+    <g
+       id="Saint_Georges_Cross">
+      <path
+         stroke="#ffffff"
+         d="M 300,0 V 300 M 0,150 h 600"
+         stroke-width="100"
+         clip-path="url(#Canton)"
+         id="path217" />
+      <path
+         stroke="#c8102e"
+         d="M 300,0 V 300 M 0,150 h 600"
+         stroke-width="60"
+         clip-path="url(#Canton)"
+         id="path219" />
+    </g>
+  </g>
+  <g
+     id="Southern_Cross"
+     transform="scale(1.0666667)">
+    <g
+       id="Gamma_Crucis">
+      <use
+         xlink:href="#Pentagram"
+         fill="#ffffff"
+         transform="matrix(45.4,0,0,45.4,900,120)"
+         id="use223" />
+      <use
+         xlink:href="#Pentagram"
+         fill="#c8102e"
+         transform="matrix(30,0,0,30,900,120)"
+         id="use225" />
+    </g>
+    <g
+       transform="rotate(82,900,240)"
+       id="g238">
+      <g
+         id="Delta_Crucis">
+        <use
+           xlink:href="#Pentagram"
+           fill="#ffffff"
+           transform="matrix(5.6225933,-40.00683,40.00683,5.6225933,900,120)"
+           id="use228" />
+        <use
+           xlink:href="#Pentagram"
+           fill="#c8102e"
+           transform="matrix(3.4793275,-24.756702,24.756702,3.4793275,900,120)"
+           id="use230" />
+      </g>
+      <g
+         id="Beta_Crucis">
+        <use
+           xlink:href="#Pentagram"
+           fill="#ffffff"
+           transform="matrix(6.3184588,-44.95817,44.95817,6.3184588,900,380)"
+           id="use233" />
+        <use
+           xlink:href="#Pentagram"
+           fill="#c8102e"
+           transform="matrix(4.175193,-29.708042,29.708042,4.175193,900,380)"
+           id="use235" />
+      </g>
+    </g>
+    <g
+       id="Alpha_Crucis">
+      <use
+         xlink:href="#Pentagram"
+         fill="#ffffff"
+         transform="matrix(50.4,0,0,50.4,900,480)"
+         id="use240" />
+      <use
+         xlink:href="#Pentagram"
+         fill="#c8102e"
+         transform="matrix(35,0,0,35,900,480)"
+         id="use242" />
+    </g>
+  </g>
 </svg>
