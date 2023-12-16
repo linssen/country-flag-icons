@@ -178,7 +178,7 @@
     "url": "/wiki/Bolivia",
     "alpha3": "BOL",
     "name": "Bolivia (Plurinational State of)",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/b/b3/Bandera_de_Bolivia_%28Estado%29.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_Bolivia_%28state%29.svg",
     "license": "Public domain"
   },
   {
@@ -616,13 +616,6 @@
     "license": "Public domain"
   },
   {
-    "url": "/wiki/Bailiwick_of_Guernsey",
-    "alpha3": "GGY",
-    "name": "Guernsey",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Guernsey.svg",
-    "license": "Public domain"
-  },
-  {
     "url": "/wiki/Guinea",
     "alpha3": "GIN",
     "name": "Guinea",
@@ -651,17 +644,10 @@
     "license": "Public domain"
   },
   {
-    "url": "/wiki/Heard_Island_and_McDonald_Islands",
-    "alpha3": "HMD",
-    "name": "Heard Island and McDonald Islands",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg",
-    "license": "Public domain"
-  },
-  {
     "url": "/wiki/Vatican_City",
     "alpha3": "VAT",
     "name": "Holy See",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_the_Vatican_City.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_the_Vatican_City_%282023%E2%80%93present%29.svg",
     "license": "Public domain"
   },
   {
@@ -780,7 +766,7 @@
     "url": "/wiki/Kazakhstan",
     "alpha3": "KAZ",
     "name": "Kazakhstan",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Kazakhstan_%28President_of_Kazakhstan_website%29.svg",
     "license": "Public domain"
   },
   {
@@ -945,6 +931,13 @@
     "license": "Public domain"
   },
   {
+    "url": "/wiki/Martinique",
+    "alpha3": "MTQ",
+    "name": "Martinique",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/2/27/Flag-of-Martinique.svg",
+    "license": "Public domain"
+  },
+  {
     "url": "/wiki/Mauritania",
     "alpha3": "MRT",
     "name": "Mauritania",
@@ -1052,7 +1045,7 @@
   {
     "url": "/wiki/Kingdom_of_the_Netherlands",
     "alpha3": "NLD",
-    "name": "Netherlands",
+    "name": "Netherlands - Kingdom of the",
     "file_url": "//upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
     "license": "Public domain"
   },
@@ -1060,8 +1053,8 @@
     "url": "/wiki/New_Caledonia",
     "alpha3": "NCL",
     "name": "New Caledonia",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/0/0c/Drapeau_de_Nouvelle-Cal%C3%A9donie.png",
-    "license": "Creative Commons Attribution-Share Alike 4.0 International"
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/2/26/Flags_of_New_Caledonia.svg",
+    "license": "Public domain"
   },
   {
     "url": "/wiki/New_Zealand",
@@ -1246,13 +1239,6 @@
     "license": "Public domain"
   },
   {
-    "url": "/wiki/Saint_Barth%C3%A9lemy",
-    "alpha3": "BLM",
-    "name": "Saint Barth\u00e9lemy",
-    "file_url": "//upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
-    "license": "Public domain"
-  },
-  {
     "url": "/wiki/Saint_Helena,_Ascension_and_Tristan_da_Cunha",
     "alpha3": "SHN",
     "name": "Saint Helena - Ascension and Tristan da Cunha",
@@ -1305,7 +1291,14 @@
     "url": "/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
     "alpha3": "STP",
     "name": "Sao Tome and Principe",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Sao_Tome_and_Principe.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
+    "license": "Public domain"
+  },
+  {
+    "url": "/wiki/Saudi_Arabia",
+    "alpha3": "SAU",
+    "name": "Saudi Arabia",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
     "license": "Public domain"
   },
   {
@@ -1428,13 +1421,6 @@
     "license": "Public domain"
   },
   {
-    "url": "/wiki/Svalbard_and_Jan_Mayen",
-    "alpha3": "SJM",
-    "name": "Svalbard and Jan Mayen",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
-    "license": "Public domain"
-  },
-  {
     "url": "/wiki/Sweden",
     "alpha3": "SWE",
     "name": "Sweden",
@@ -1445,7 +1431,7 @@
     "url": "/wiki/Switzerland",
     "alpha3": "CHE",
     "name": "Switzerland",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg",
     "license": "Public domain"
   },
   {
@@ -1571,21 +1557,21 @@
     "url": "/wiki/United_Kingdom",
     "alpha3": "GBR",
     "name": "United Kingdom of Great Britain and Northern Ireland",
-    "file_url": "//upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg",
     "license": "Public domain"
   },
   {
     "url": "/wiki/United_States",
     "alpha3": "USA",
     "name": "United States of America",
-    "file_url": "//upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg",
     "license": "Public domain"
   },
   {
     "url": "/wiki/United_States_Minor_Outlying_Islands",
     "alpha3": "UMI",
     "name": "United States Minor Outlying Islands",
-    "file_url": "//upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg",
     "license": "Public domain"
   },
   {
@@ -1606,7 +1592,7 @@
     "url": "/wiki/Vanuatu",
     "alpha3": "VUT",
     "name": "Vanuatu",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Vanuatu_%28official%29.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg",
     "license": "Public domain"
   },
   {
@@ -1641,7 +1627,7 @@
     "url": "/wiki/Wallis_and_Futuna",
     "alpha3": "WLF",
     "name": "Wallis and Futuna",
-    "file_url": "//upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+    "file_url": "//upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Wallis_and_Futuna.svg",
     "license": "Public domain"
   },
   {

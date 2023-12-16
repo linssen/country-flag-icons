@@ -1,9 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 114 57">
-	<title>Flag of South Sudan</title>
-	<path fill="#fff"  d="m0 0h114v57H0z"/>
-	<path d="m0 0h114v17H9z"/>
-	<path fill="#da121a" d="m9 20h105v17H9z"/>
-	<path fill="#078930" d="m9 40h105v17H0z"/>
-	<path fill="#0f47af" d="m49.363 28.5L0 57V0z"/>
-	<path fill="#fcdd09" d="m6.954 28.5 17.186 5.584-10.621-14.619v18.07L24.14 22.916z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="600"
+   viewBox="0 0 114 57"
+   version="1.1"
+   id="svg14609"
+   sodipodi:docname="Flag_of_South_Sudan.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14613" />
+  <sodipodi:namedview
+     id="namedview14611"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.1633333"
+     inkscape:cx="600"
+     inkscape:cy="300"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14609" />
+  <path
+     fill="#fff"
+     d="m0 0h114v57H0z"
+     id="path14597" />
+  <path
+     d="m0 0h114v17H9z"
+     id="path14599" />
+  <path
+     fill="#da121a"
+     d="m9 20h105v17H9z"
+     id="path14601" />
+  <path
+     fill="#078930"
+     d="m9 40h105v17H0z"
+     id="path14603" />
+  <path
+     fill="#009edb"
+     d="m49.363 28.5L0 57V0z"
+     id="path14605"
+     style="fill:#45b4db;fill-opacity:1" />
+  <path
+     fill="#fcdd09"
+     d="m22.772 37.093-5.584-17.186-5.584 17.185 14.619-10.62H8.153Z"
+     id="path14607" />
 </svg>

@@ -1,1 +1,34 @@
-<svg height="600" width="1200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m0 0v150h700v150h-100zm600 0h-300v350h-300v-50z"/></clipPath><path d="m0 0h1200v600h-1200z" fill="#012169"/><path d="m0 0 600 300m0-300-600 300" stroke="#fff" stroke-width="60"/><path clip-path="url(#a)" d="m0 0 600 300m0-300-600 300" stroke="#c8102e" stroke-width="40"/><path d="m300 0v350m-300-200h700" stroke="#fff" stroke-width="100"/><path d="m300 0v350m-300-200h700" stroke="#c8102e" stroke-width="60"/><path d="m0 300h600v-300h200v400h-800z" fill="#012169"/><g transform="matrix(4.5354331 0 0 4.5354331 780 -897.02355)"><path d="m1.0583333 232.17707c0 33.29588 3.8608765 44.76863 11.5897437 52.49754 4.609612 4.57608 6.65299 6.29802 13.810255 11.00246 7.157274-4.70444 9.200649-6.42638 13.810261-11.00246 7.728868-7.72891 11.58974-19.20166 11.58974-52.49754-5.621656 2.40694-8.825192 3.57385-13.461006 3.50245-4.14698-.0638-8.540908-1.9898-11.938995-3.50245-3.398085 1.51265-7.792001 3.43857-11.938987 3.50245-4.6358187.0714-7.8393567-1.09551-13.4610117-3.50245z" fill="#fff" stroke-width=".381233"/><g transform="matrix(.77356547 0 0 .73749905 -182.3757 184.68477)"><circle cx="15.07813" cy="-30.97657" fill="#fff" fill-rule="evenodd" r="0"/><g transform="translate(0 -.000003)"><path d="m271 87c1.543 3.6293 6.49 7.637 7.85 9.6011-1.731 1.964-2.077 1.7501-1.85 5.3989 3.01-3.1493 3.064-3.4776 5-3 4.241 4.232.759 13.321-2.746 15.297-3.504 2.108-2.868-.073-8.12 2.569 2.408 2.059 5.198-.302 7.478.329 1.239 1.47-.589 4.149.374 6.672 2.015-.194 1.773-4.262 2.242-5.737 1.472-5.404 10.322-9.173 10.772-14.13 1.866-.876 3.731-.274 6 1-1.13-4.644-4.868-4.594-5.87-6.0444-2.385-3.6446-4.499-7.8024-9.593-8.881-3.867-.8188-3.578.2463-6.056-1.444-1.543-1.2014-6.231-3.4734-5.481-1.6306z" fill="#f90"/><circle cx="281.31705" cy="91.127861" fill="#fff" fill-rule="evenodd" r=".805969"/></g><g transform="matrix(-.46715699 -.884169 .88416899 -.467157 308.31179 382.6492)"><path d="m271 87c1.543 3.6293 6.49 7.637 7.85 9.6011-1.731 1.964-2.077 1.7501-1.85 5.3989 3.01-3.1493 3.064-3.4776 5-3 4.241 4.232.759 13.321-2.746 15.297-3.504 2.108-2.868-.073-8.12 2.569 2.408 2.059 5.198-.302 7.478.329 1.239 1.47-.589 4.149.374 6.672 2.015-.194 1.773-4.262 2.242-5.737 1.472-5.404 10.322-9.173 10.772-14.13 1.866-.876 3.731-.274 6 1-1.13-4.644-4.868-4.594-5.87-6.0444-2.385-3.6446-4.499-7.8024-9.593-8.881-3.867-.8188-3.578.2463-6.056-1.444-1.543-1.2014-6.231-3.4734-5.481-1.6306z" fill="#f90"/><circle cx="281.31705" cy="91.127861" fill="#fff" fill-rule="evenodd" r=".805969"/></g><g transform="matrix(-.51503599 .857166 -.85716599 -.51503599 492.99828 -82.935809)"><path d="m271 87c1.543 3.6293 6.49 7.637 7.85 9.6011-1.731 1.964-2.077 1.7501-1.85 5.3989 3.01-3.1493 3.064-3.4776 5-3 4.241 4.232.759 13.321-2.746 15.297-3.504 2.108-2.868-.073-8.12 2.569 2.408 2.059 5.198-.302 7.478.329 1.239 1.47-.589 4.149.374 6.672 2.015-.194 1.773-4.262 2.242-5.737 1.472-5.404 10.322-9.173 10.772-14.13 1.866-.876 3.731-.274 6 1-1.13-4.644-4.868-4.594-5.87-6.0444-2.385-3.6446-4.499-7.8024-9.593-8.881-3.867-.8188-3.578.2463-6.056-1.444-1.543-1.2014-6.231-3.4734-5.481-1.6306z" fill="#f90"/><circle cx="281.31705" cy="91.127861" fill="#fff" fill-rule="evenodd" r=".805969"/></g></g><path d="m7.4300387 277.60944c1.4814946 2.81218 3.2195483 5.06645 5.2182843 7.0652 4.609613 4.57608 6.652744 6.29799 13.810009 11.00243 7.157275-4.70444 9.200914-6.42635 13.810527-11.00243 1.998701-1.99871 3.73629-4.25309 5.21777-7.0652z" fill="#9cf" stroke-width=".381233"/><path d="m.00000016 230.85415c0 34.6832 4.02174604 46.63409 12.07264884 54.68503 4.80168 4.76674 6.9302 6.56034 14.385684 11.4608 7.455493-4.90046 9.58401-6.69406 14.385687-11.4608 8.050908-8.05094 12.072646-20.00183 12.072646-54.68503-5.85588 2.50722-9.192908 3.72273-14.021882 3.64836-4.319775-.0665-8.896778-2.07269-12.436451-3.64836-3.53967 1.57567-8.11667 3.58182-12.436448 3.64836-4.8289767.0744-8.1659943-1.14114-14.02188484-3.64836zm1.58749994 1.85208c5.5045372 2.36683 8.6413499 3.51444 13.1805919 3.44424 4.060589-.0628 8.36295-1.9568 11.690241-3.44424 3.327294 1.48744 7.629657 3.38154 11.690244 3.44424 4.539239.0702 7.67606-1.07741 13.180589-3.44424 0 32.74095-3.780292 44.0226-11.348143 51.62269-4.513582 4.49982-6.514523 6.19295-13.52269 10.81898-7.008153-4.62603-9.00911-6.31916-13.522687-10.81898-7.5678507-7.60009-11.3481459-18.88174-11.3481459-51.62269z" fill="#fdc301" stroke-width=".377659"/></g></svg>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Wikimedia Error</title>
+<style>
+* { margin: 0; padding: 0; }
+body { background: #fff; font: 15px/1.6 sans-serif; color: #333; }
+.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; }
+.footer { clear: both; margin-top: 14%; border-top: 1px solid #e5e5e5; background: #f9f9f9; padding: 2em 0; font-size: 0.8em; text-align: center; }
+img { float: left; margin: 0 2em 2em 0; }
+a img { border: 0; }
+h1 { margin-top: 1em; font-size: 1.2em; }
+.content-text { overflow: hidden; overflow-wrap: break-word; word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
+p { margin: 0.7em 0 1em 0; }
+a { color: #0645ad; text-decoration: none; }
+a:hover { text-decoration: underline; }
+code { font-family: sans-serif; }
+.text-muted { color: #777; }
+</style>
+<div class="content" role="main">
+<a href="https://www.wikimedia.org"><img src="https://www.wikimedia.org/static/images/wmf-logo.png" srcset="https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x" alt="Wikimedia" width="135" height="101">
+</a>
+<h1>Error</h1>
+<div class="content-text">
+<p>Our servers are currently under maintenance or experiencing a technical problem.
+
+Please <a href="" title="Reload this page" onclick="window.location.reload(false); return false">try again</a> in a few&nbsp;minutes.</p>
+
+<p>See the error message at the bottom of this page for more&nbsp;information.</p>
+</div>
+</div>
+<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request from 146.113.243.113 via cp1113 cp1113, Varnish XID 58599826<br>Upstream caches: cp1113 int<br>Error: 403, Forbidden. Please comply with the User-Agent policy: https://meta.wikimedia.org/wiki/User-Agent_policy at Sat, 16 Dec 2023 21:41:37 GMT</code></p>
+</div>
+</html>
