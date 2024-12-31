@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="900" height="600" viewBox="-81 -54 162 108" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <clipPath id="c">
-   <path transform="rotate(-36,0,-26)" d="m0-26v26h-26"/>
-  </clipPath>
- </defs>
- <path d="m-81-54h162v108h-162z" fill="#4189dd"/>
- <path id="a" transform="rotate(18,0,-26)" d="m0-26v26h26" clip-path="url(#c)" fill="#fff"/>
- <g id="b">
-  <use transform="rotate(72)" xlink:href="#a"/>
-  <use transform="rotate(144)" xlink:href="#a"/>
- </g>
- <use transform="rotate(144)" xlink:href="#b"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600"><g transform="scale(6 -6) translate(75 -100)"><line y2="100" stroke-width="150" stroke="#418fde"/><path fill="#fff" d="M0,74.0741, 5.405,57.4393, 22.8958,57.4393, 8.7454,47.1584, 14.1504,30.5237, 0,40.8045, -14.1504,30.5237, -8.7454,47.1584, -22.8958,57.4393, -5.405,57.4393"/></g></svg>

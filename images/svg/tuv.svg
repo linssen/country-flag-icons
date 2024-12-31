@@ -1,14 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600">
-<clipPath id="c1"><path d="M0,0H650V350H0z"/></clipPath>
-<clipPath id="c2"><path d="M0,0V150H650V300H600zM0,300V350H300V0H600z"/></clipPath>
-<rect width="1200" height="600" fill="#012169"/>
-<path d="M0,0 600,300M600,0 0,300" stroke="#fff" stroke-width="60" clip-path="url(#c1)"/>
-<path d="M0,0 600,300M600,0 0,300" stroke="#c8102e" stroke-width="40" clip-path="url(#c2)"/>
-<path d="M0,150H650M300,0V350" stroke="#fff" stroke-width="100"/>
-<path d="M0,150H650M300,0V350" stroke="#c8102e" stroke-width="60"/>
-<path d="M0,300H600V0H1200V600H0z" fill="#009cde"/>
-<g fill="#fedd00">
-<path d="m645.3396 490.91279 29.4368 90.597-77.0665-55.992h95.2594l-77.0665 55.993z"/><path d="m817.46233 463.99977-29.43671 90.59703-29.43684-90.59703 77.06648 55.99207-95.25997.00074z"/><path d="m817.46233 342.01619-29.43671 90.59703-29.43684-90.59703 77.06648 55.99207-95.25997.00074z"/><path d="m943.46715 433.16817-29.43671 90.59703-29.43683-90.59703 77.06647 55.99207-95.25997.00073z"/><path d="m943.46715 167.75458-29.43671 90.59703-29.43683-90.59703 77.06647 55.99207-95.25997.00073z"/><path d="m996.44159 339.96479 29.43681 90.597-77.06651-55.992h95.25941l-77.06651 55.993z"/><path d="m1049.3647 131.56139-29.4367 90.59703-29.43681-90.59703 77.06651 55.99207-95.26001.00073z"/><path d="m1102.8361 271.47361 29.4368 90.597-77.0665-55.992h95.2594l-77.0665 55.993z"/><path d="m1102.8361 37.4052 29.4368 90.597-77.0665-55.992h95.2594l-77.0665 55.993z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="600" viewBox="0 0 120 60" fill="#fedd00">
+	<title>Flag of Tuvalu</title>
+	<defs>
+		<path id="a" d="m0-5.2573 3.0902 9.5106L-5-1.6246H5l-8.0902 5.8779z"/>
+		<path id="b" d="m0 5.2573-3.0902-9.5106L5 1.6246H-5l8.0902-5.8779z"/>
+		<clipPath id="f">
+			<path d="m0 0h120v60H0z"/>
+		</clipPath>
+		<clipPath id="s">
+			<path d="m0 0v15h62v16zm0 30v1h30V0h30z"/>
+		</clipPath>
+	</defs>
+	<path fill="#012169" d="m0 0h120v60H0z"/>
+	<g clip-path="url(#f)" fill="none" stroke="#c8102e" stroke-width="6">
+		<path stroke="#fff" d="m0 0 60 30M0 30 60 0"/>
+		<path stroke-width="4" clip-path="url(#s)" d="m0 0 60 30M0 30 60 0"/>
+		<path stroke="#fff" stroke-width="10" d="m30 0v31M0 15h62"/>
+		<path d="m30 0v31M0 15h62"/>
+	</g>
+	<path fill="#009cde" d="m60 0h60v60H0V30h60z"/>
+	<use xlink:href="#a" x="65.5" y="54"/>
+	<use xlink:href="#b" x="78" y="38.5"/>
+	<use xlink:href="#b" x="78" y="51"/>
+	<use xlink:href="#b" x="90.5" y="21.5"/>
+	<use xlink:href="#b" x="90.5" y="47.5"/>
+	<use xlink:href="#b" x="101" y="17.5"/>
+	<use xlink:href="#a" x="101" y="38.5"/>
+	<use xlink:href="#a" x="111.5" y="8"/>
+	<use xlink:href="#a" x="111.5" y="32"/>
 </svg>

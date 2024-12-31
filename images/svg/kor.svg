@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="-36 -24 72 48">
-<title>Flag of South Korea</title>
-<path d="M-36-24h72v48h-72z" fill="#fff"/>
-<g transform="rotate(-56.3099325)"><!--arctan(-3/2)-->
-<g id="b2"><path id="b" d="M-6-26H6v2H-6zm0 3H6v2H-6zm0 3H6v2H-6z"/>
-<use xlink:href="#b" y="44"/></g>
-<path stroke="#fff" d="M0,17v10"/>
-<path fill="#cd2e3a" d="M0-12A12 12 0 0 1 0 12z"/>
-<path fill="#0047a0" d="M0-12A12 12 0 0 0 0 12 6 6 0 0 0 0 0z"/>
-<circle cy="-6" fill="#cd2e3a" r="6"/></g>
-<g transform="rotate(-123.6900675)"><use xlink:href="#b2"/>
-<path stroke="#fff" d="M0-23.5v3M0,17v3.5M0,23.5v3"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="-72 -48 144 96"><path fill="#fff" d="M-72-48v96H72v-96z"/><g stroke="#000" stroke-width="4"><path transform="rotate(33.69006752598)" d="M-50-12v24m6 0v-24m6 0v24m76 0V1m0-2v-11m6 0v11m0 2v11m6 0V1m0-2v-11"/><path transform="rotate(-33.69006752598)" d="M-50-12v24m6 0V1m0-2v-11m6 0v24m76 0V1m0-2v-11m6 0v24m6 0V1m0-2v-11"/></g><g transform="rotate(33.69006752598)"><path fill="#cd2e3a" d="M12 0a18 18 0 11-36 0 24 24 0 1148 0"/><path fill="#0047a0" d="M0 0a12 12 0 1124 0 24 24 0 11-48 0 12 12 0 1024 0"/></g></svg>

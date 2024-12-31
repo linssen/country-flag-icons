@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 6 3">
 	<title>Flag of Seychelles</title>
 	<path fill="#fff" d="m0 0h6v3H0z"/>
-	<path fill="#d92223" d="m0 3V0h6v1z"/>
-	<path fill="#fcd955" d="m0 3V0h4z"/>
-	<path fill="#003d88" d="m0 3V0h2z"/>
-	<path fill="#007a39" d="m0 3 6-1v1z"/>
+	<path fill="#d22730" d="m0 3V0h6v1z"/>
+	<path fill="#fed141" d="m0 3V0h4z"/>
+	<path fill="#002f6c" d="m0 3V0h2z"/>
+	<path fill="#007a33" d="m0 3 6-1v1z"/>
 </svg>

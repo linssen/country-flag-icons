@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="600" viewBox="-7200 -3600 14400 7200" fill="#006b3f" stroke="#000" stroke-width="7">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="600" viewBox="-7200 -3600 14400 7200" fill="#046a38" stroke="#000" stroke-width="7">
 	<title>Flag of Dominica</title>
 	<g transform="scale(300)" stroke="none">
 		<path d="m-24-12h48v24h-48z"/>
-		<path fill="#fcd116" d="m-24-3h48v3h-48zm21-9h3v24h-3z"/>
+		<path fill="#ffcd00" d="m-24-3h48v3h-48zm21-9h3v24h-3z"/>
 		<path fill="#fff" d="m-24 0h48v3h-48zM0-12h3v24H0z"/>
 		<path fill="#000" d="m-24-1h48v2h-48zm23-11h2v24h-2z"/>
-		<circle r="6" fill="#d41c30"/>
+		<circle r="6" fill="#d50032"/>
 	</g>
 	<g id="b">
 		<g id="a">
@@ -22,7 +22,7 @@
 		<ellipse cx="523" cy="-267" rx="586" ry="91"/>
 	</g>
 	<path fill="#9c4a00" d="m439 868c-161 17-865 25-895 3-30-22-75-115-75-120 92-4 52-53 99-79 46-27 112-9 132 23 20 33 4 65 29 66 26 0 526-24 710-11 30 2 53 29 53 59 0 30-23 56-53 59z"/>
-	<path id="c" fill="#fcd116" d="m-41 818c-1 70 101 50 103 108-3 61-172 4-174-109 7-112 172-167 174-103 2 53-101 35-103 104z"/>
+	<path id="c" fill="#ffcd00" d="m-41 818c-1 70 101 50 103 108-3 61-172 4-174-109 7-112 172-167 174-103 2 53-101 35-103 104z"/>
 	<use xlink:href="#c" x="60"/>
 	<use xlink:href="#c" x="125"/>
 	<use xlink:href="#c" x="186"/>
@@ -38,7 +38,7 @@
 			<ellipse cx="109" cy="192" rx="69" ry="57"/>
 		</g>
 	</g>
-	<path fill="#9461c9" d="m-177-632c0 0-176 152-156 565 22 416 389 611 389 611h58V-632z"/>
+	<path fill="#9063cd" d="m-177-632c0 0-176 152-156 565 22 416 389 611 389 611h58V-632z"/>
 	<g transform="scale(.85,1.8)">
 		<g transform="rotate(40.6)">
 			<ellipse cx="421" cy="95" rx="58" ry="68"/>
@@ -53,7 +53,7 @@
 			<ellipse cx="192" cy="106" rx="57" ry="69"/>
 		</g>
 	</g>
-	<ellipse transform="rotate(66.5)" fill="#d41c30" stroke-width="4" cx="149" cy="-149" rx="456" ry="148"/>
+	<ellipse transform="rotate(66.5)" fill="#d50032" stroke-width="4" cx="149" cy="-149" rx="456" ry="148"/>
 	<g transform="scale(1.25,.85)">
 		<ellipse cx="56" cy="-579" rx="49" ry="63"/>
 		<ellipse cx="50" cy="-658" rx="49" ry="63"/>
@@ -88,7 +88,7 @@
 		<path d="m117-323a214 46 59.3 1 0 75-56"/>
 		<path d="m48-388a161 34 62.4 1 0 53-45"/>
 	</g>
-	<g fill="#9461c9">
+	<g fill="#9063cd">
 		<path id="n" d="m97-553c-29 30 1 84 27 106 31 26 201 207 321 56-96-2-276-228-348-162z"/>
 		<use xlink:href="#n" x="-21" y="-89"/>
 		<use xlink:href="#n" x="-48" y="-174"/>
@@ -96,10 +96,10 @@
 		<path d="m-219-917c61-46 173-59 260-15 73 36 194 181 285 216-64 11-103 1-144-18-81 58-110 67-192 79-115 16-210-14-244-73-34-57-19-147 35-189z"/>
 	</g>
 	<g transform="scale(1.4,.7)">
-		<ellipse fill="#d41c30" cx="-64" cy="-1181" rx="38" ry="44"/>
+		<ellipse fill="#d50032" cx="-64" cy="-1181" rx="38" ry="44"/>
 		<ellipse fill="#000" stroke="none" cx="-66" cy="-1184" rx="13" ry="23"/>
 	</g>
-	<g fill="#fcd116">
+	<g fill="#ffcd00">
 		<ellipse transform="rotate(69.6)" cx="-747" cy="-11" rx="45" ry="73"/>
 		<path d="m-206-786c5 23-12 55-50 66-38 16-67 52-84 111-58-134-21-191 41-205 53-17 85-15 93 28z"/>
 	</g>
